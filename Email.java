@@ -14,7 +14,7 @@ public class Email {
     private String companySuffix = "cuycompany.com";
 
     // Constructor to receive the firstName and lastName
-    Email(String firstName, String lastName){
+    public Email(String firstName, String lastName){
         this.firstName = firstName;
         this.lastName = lastName;
 
